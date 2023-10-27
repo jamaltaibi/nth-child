@@ -1,0 +1,32 @@
+
+section {
+    height: 800px;
+    width: 800px;
+    background-color: wheat;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div div {
+    height: 80px;
+    width: 80px;
+}
+
+body section :nth-child(even)
+{
+    background-color: black;
+}
+
+body section :nth-child(odd)
+{
+    background-color: white;
+}
+
+body section div:nth-child(odd)
+{
+    background-color: white;
+}
+body section div :nth-child(even){
+    background-color: black;
+}
