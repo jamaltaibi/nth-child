@@ -1,6 +1,10 @@
+body{
+    background-color: aqua;
+}
 
 section {
    width: 800px;
+   background-color: white;
     margin: auto;
 }
 
@@ -13,10 +17,10 @@ div {
     display: flex;
 }
 
-section div :nth-child(even){
+section :nth-child(even) :nth-child(even){
     background-color: black;
 }
 
-section :nth-child(even){
-    flex-direction: column-reverse;
+section :nth-child(odd) :nth-child(odd) {
+    background-color: black;
 }
