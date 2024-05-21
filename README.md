@@ -1,4 +1,4 @@
-# Projet HTML avec CSS
+# Projet HTML avec CSS et Nth-child
 
 Bienvenue dans mon projet HTML avec CSS et Nth-child ! 
 Ce projet comporte une structure de base de page web avec des éléments div et des styles appliqués à l'aide de CSS.
